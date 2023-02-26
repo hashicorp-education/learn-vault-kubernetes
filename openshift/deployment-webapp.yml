@@ -18,7 +18,7 @@
         serviceAccountName: webapp
         containers:
         - name: app
-          image: burtlo/exampleapp-ruby:k8s
+          image: hashieducation/simple-vault-client:latest
           imagePullPolicy: Always
           env:
           - name: VAULT_ADDR
