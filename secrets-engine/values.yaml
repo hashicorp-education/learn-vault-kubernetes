@@ -3,9 +3,6 @@ global:
 
 server:
   enabled: true
-  image:
-    repository: hashicorp/vault
-    tag: 1.11.0-rc1
   dev:
     enabled: true
   logLevel: debug
